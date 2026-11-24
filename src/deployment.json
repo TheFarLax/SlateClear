@@ -1,0 +1,24 @@
+{
+  "contract_address": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+  "campaign_id": "signal-room",
+  "explorer_url": "https://explorer-studio.genlayer.com/address/0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+  "transactions": {
+    "deployment": "0x2a2346afd709b5dfc5d737414fd89247fef8bca4f626585b602c845b5d70d82a",
+    "campaign_created": "0xf7d668b90df417ccbcacdbb66cc3ac0570ecddc38e352cf4fa61743b508e5a13",
+    "register_relay-footage": "0xde45f2dd668587e7107c1394f75c109e174d7ad63588c52a57225772672117b2",
+    "terms_relay-footage": "0x8ee7601400873abb375dcdc2708581b0dbeaadc63c2e046ad85d2fc9b8f29b7d",
+    "register_signal-score": "0x96e9157548ab18510247a4b963433b6ff8d62ffec08b3090412a37cd312de247",
+    "terms_signal-score": "0x441228684b06966e5d071747388b756a58472072ff837ebad49ea4791a227884",
+    "register_title-art": "0x6396629e99f06db9eedd889b5c9f5d359096e39d2bf528dd2706cb9add198805",
+    "terms_title-art": "0xff55800cc836f90f3867feacdff621fc24ededb52db8afbeda3f4a5b29aa4e01",
+    "cut_1_committed": "0x4abc2827eff1c90418cc7165abca42c4a87113110a609df1a58ef5c12b01ce47",
+    "cut_1_reviewed": "0x700fd6bf6dd566235d91ae8076aa956fae6fdca1413b9aaeff6ae409bb8fbce8",
+    "cut_1_approved": "0x33b9e30b04350f26b1f1f811c19768e31b2f177813b4b75caa77180d81386d74",
+    "web_certificate": "0x57c4f77403a89ee17fc8ddb44ddc6f2847157f07053da9490c00240c0b4f1932",
+    "score_terms_updated": "0x83870c6400310d2347b41b35b8c7b169cc9592bd53d53007e03ec642d301f810",
+    "cut_2_committed": "0xb4c3b14eab1b68bd00158f9aaac05a9b614ab0e3d2b161ce8396d80196a8bc0d",
+    "cut_2_reviewed": "0xbd1bed72ae332c8d77e06527803134739bb73364164332d208e267da0b71965a",
+    "cut_2_approved": "0xb427836e8825384800ac3bdf3cfad7e5200affd1eb7e06a8bdc5958a5784ce58",
+    "paid_certificate": "0x4267ec3666c93cffb06cc68d6ab51241e5277b808b62b4ad0b0300f040673aa6"
+  }
+}

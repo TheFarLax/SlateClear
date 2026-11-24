@@ -1,0 +1,776 @@
+{
+  "project": "SlateClear",
+  "network": "Studionet",
+  "chain_id": 61999,
+  "source_sha256": "e4e9a4bf7b3c5f332287410d355e8b7e2207621b104a1a113dfbb7e00feffb40",
+  "actors": {
+    "publisher": "0x907a8655f4CC2573C5213d491c02e5A08CadB374",
+    "reviewer": "0x453B3CaBAC16Af18e2CCA746FB744B4687217f9A",
+    "issuer": "0x7AB5a33344298696F5F74BB59A006cD54E076146"
+  },
+  "transactions": {
+    "deployment": {
+      "hash": "0x2a2346afd709b5dfc5d737414fd89247fef8bca4f626585b602c845b5d70d82a",
+      "method": "deploy",
+      "role": "publisher",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x2a2346afd709b5dfc5d737414fd89247fef8bca4f626585b602c845b5d70d82a"
+    },
+    "campaign_created": {
+      "hash": "0xf7d668b90df417ccbcacdbb66cc3ac0570ecddc38e352cf4fa61743b508e5a13",
+      "method": "create_campaign",
+      "role": "publisher",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xf7d668b90df417ccbcacdbb66cc3ac0570ecddc38e352cf4fa61743b508e5a13"
+    },
+    "register_relay-footage": {
+      "hash": "0xde45f2dd668587e7107c1394f75c109e174d7ad63588c52a57225772672117b2",
+      "method": "register_asset",
+      "role": "issuer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xde45f2dd668587e7107c1394f75c109e174d7ad63588c52a57225772672117b2"
+    },
+    "terms_relay-footage": {
+      "hash": "0x8ee7601400873abb375dcdc2708581b0dbeaadc63c2e046ad85d2fc9b8f29b7d",
+      "method": "publish_terms",
+      "role": "issuer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x8ee7601400873abb375dcdc2708581b0dbeaadc63c2e046ad85d2fc9b8f29b7d"
+    },
+    "register_signal-score": {
+      "hash": "0x96e9157548ab18510247a4b963433b6ff8d62ffec08b3090412a37cd312de247",
+      "method": "register_asset",
+      "role": "issuer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x96e9157548ab18510247a4b963433b6ff8d62ffec08b3090412a37cd312de247"
+    },
+    "terms_signal-score": {
+      "hash": "0x441228684b06966e5d071747388b756a58472072ff837ebad49ea4791a227884",
+      "method": "publish_terms",
+      "role": "issuer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x441228684b06966e5d071747388b756a58472072ff837ebad49ea4791a227884"
+    },
+    "register_title-art": {
+      "hash": "0x6396629e99f06db9eedd889b5c9f5d359096e39d2bf528dd2706cb9add198805",
+      "method": "register_asset",
+      "role": "issuer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x6396629e99f06db9eedd889b5c9f5d359096e39d2bf528dd2706cb9add198805"
+    },
+    "terms_title-art": {
+      "hash": "0xff55800cc836f90f3867feacdff621fc24ededb52db8afbeda3f4a5b29aa4e01",
+      "method": "publish_terms",
+      "role": "issuer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xff55800cc836f90f3867feacdff621fc24ededb52db8afbeda3f4a5b29aa4e01"
+    },
+    "cut_1_committed": {
+      "hash": "0x4abc2827eff1c90418cc7165abca42c4a87113110a609df1a58ef5c12b01ce47",
+      "method": "commit_cut",
+      "role": "publisher",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x4abc2827eff1c90418cc7165abca42c4a87113110a609df1a58ef5c12b01ce47"
+    },
+    "cut_1_reviewed": {
+      "hash": "0x700fd6bf6dd566235d91ae8076aa956fae6fdca1413b9aaeff6ae409bb8fbce8",
+      "method": "review_cut",
+      "role": "publisher",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x700fd6bf6dd566235d91ae8076aa956fae6fdca1413b9aaeff6ae409bb8fbce8"
+    },
+    "cut_1_approved": {
+      "hash": "0x33b9e30b04350f26b1f1f811c19768e31b2f177813b4b75caa77180d81386d74",
+      "method": "approve_review",
+      "role": "reviewer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x33b9e30b04350f26b1f1f811c19768e31b2f177813b4b75caa77180d81386d74"
+    },
+    "web_certificate": {
+      "hash": "0x57c4f77403a89ee17fc8ddb44ddc6f2847157f07053da9490c00240c0b4f1932",
+      "method": "issue_certificate",
+      "role": "publisher",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x57c4f77403a89ee17fc8ddb44ddc6f2847157f07053da9490c00240c0b4f1932"
+    },
+    "score_terms_updated": {
+      "hash": "0x83870c6400310d2347b41b35b8c7b169cc9592bd53d53007e03ec642d301f810",
+      "method": "publish_terms",
+      "role": "issuer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x83870c6400310d2347b41b35b8c7b169cc9592bd53d53007e03ec642d301f810"
+    },
+    "cut_2_committed": {
+      "hash": "0xb4c3b14eab1b68bd00158f9aaac05a9b614ab0e3d2b161ce8396d80196a8bc0d",
+      "method": "commit_cut",
+      "role": "publisher",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xb4c3b14eab1b68bd00158f9aaac05a9b614ab0e3d2b161ce8396d80196a8bc0d"
+    },
+    "cut_2_reviewed": {
+      "hash": "0xbd1bed72ae332c8d77e06527803134739bb73364164332d208e267da0b71965a",
+      "method": "review_cut",
+      "role": "publisher",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xbd1bed72ae332c8d77e06527803134739bb73364164332d208e267da0b71965a"
+    },
+    "cut_2_approved": {
+      "hash": "0xb427836e8825384800ac3bdf3cfad7e5200affd1eb7e06a8bdc5958a5784ce58",
+      "method": "approve_review",
+      "role": "reviewer",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0xb427836e8825384800ac3bdf3cfad7e5200affd1eb7e06a8bdc5958a5784ce58"
+    },
+    "paid_certificate": {
+      "hash": "0x4267ec3666c93cffb06cc68d6ab51241e5277b808b62b4ad0b0300f040673aa6",
+      "method": "issue_certificate",
+      "role": "publisher",
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "SUCCESS",
+      "execution_code": null,
+      "to": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+      "explorer_url": "https://explorer-studio.genlayer.com/tx/0x4267ec3666c93cffb06cc68d6ab51241e5277b808b62b4ad0b0300f040673aa6"
+    }
+  },
+  "scenario_is_synthetic": true,
+  "scenario_start": 29923788,
+  "contract_address": "0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+  "explorer_url": "https://explorer-studio.genlayer.com/address/0x1EBEFa1A949788a11F3056224A68202a5b0F10DE",
+  "onchain_source_sha256": "e4e9a4bf7b3c5f332287410d355e8b7e2207621b104a1a113dfbb7e00feffb40",
+  "source_matches_onchain": true,
+  "web_before_update": {
+    "changed": [],
+    "checked_at": 29923976,
+    "receipt": {
+      "approval_hash": "0bf29b7bb57454f14aad988585b65ed861e3cbde0e068e058ad74823e9162778",
+      "assets": [
+        {
+          "edited": true,
+          "id": "relay-footage",
+          "terms_hash": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3"
+        },
+        {
+          "edited": true,
+          "id": "signal-score",
+          "terms_hash": "2587bf26fc584e774de66a8ddf2a923c3717071508c42c523e85acce1a3e5df6"
+        },
+        {
+          "edited": true,
+          "id": "title-art",
+          "terms_hash": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe"
+        }
+      ],
+      "campaign_id": "signal-room",
+      "hash": "5a7c8d23490d306431ac653eebe2215d736a45ac8c0158e4dbfa8e749162cc79",
+      "id": "signal-room/1/web",
+      "issued_at": 29923975,
+      "plan_hash": "0b3ae7d4de410f0f2a9b2d245eae10f8a63c2e1cd79facc40a28fcea090b4c8e",
+      "publisher": "0x907a8655f4cc2573c5213d491c02e5a08cadb374",
+      "replaces": "",
+      "review_hash": "92767b64b8ec35e17091beb19bd53ed83cc59315fbdaa4adf0aaca063edac989",
+      "revision": 1,
+      "route": {
+        "channel": "OWNED_WEB",
+        "credits": {
+          "title-art": "Graphics by Paper Signal"
+        },
+        "end": 30053388,
+        "id": "web",
+        "label": "Owned website",
+        "start": 29923788,
+        "territory": "WORLD"
+      }
+    },
+    "retirement": null,
+    "status": "VALID"
+  },
+  "scenario_status": "passed",
+  "campaign_id": "signal-room",
+  "campaign": {
+    "active_by_route": {
+      "paid": "signal-room/2/paid",
+      "web": "signal-room/1/web"
+    },
+    "certificate_ids": [
+      "signal-room/1/web",
+      "signal-room/2/paid"
+    ],
+    "created_at": 29923969,
+    "head_revision": 2,
+    "id": "signal-room",
+    "publisher": "0x907a8655f4cc2573c5213d491c02e5a08cadb374",
+    "reviewer": "0x453b3cabac16af18e2cca746fb744b4687217f9a",
+    "title": "Signal Room trailer"
+  },
+  "cuts": [
+    {
+      "approval": {
+        "approved_at": 29923975,
+        "hash": "0bf29b7bb57454f14aad988585b65ed861e3cbde0e068e058ad74823e9162778",
+        "review_hash": "92767b64b8ec35e17091beb19bd53ed83cc59315fbdaa4adf0aaca063edac989",
+        "reviewer": "0x453b3cabac16af18e2cca746fb744b4687217f9a"
+      },
+      "plan": {
+        "campaign_id": "signal-room",
+        "manifest": {
+          "assets": [
+            {
+              "edited": true,
+              "id": "relay-footage",
+              "terms_hash": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3"
+            },
+            {
+              "edited": true,
+              "id": "signal-score",
+              "terms_hash": "2587bf26fc584e774de66a8ddf2a923c3717071508c42c523e85acce1a3e5df6"
+            },
+            {
+              "edited": true,
+              "id": "title-art",
+              "terms_hash": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe"
+            }
+          ],
+          "label": "Editorial cut",
+          "routes": [
+            {
+              "channel": "OWNED_WEB",
+              "credits": {
+                "title-art": "Graphics by Paper Signal"
+              },
+              "end": 30053388,
+              "id": "web",
+              "label": "Owned website",
+              "start": 29923788,
+              "territory": "WORLD"
+            },
+            {
+              "channel": "PAID_SOCIAL",
+              "credits": {
+                "title-art": "Graphics by Paper Signal"
+              },
+              "end": 30053388,
+              "id": "paid",
+              "label": "Paid social",
+              "start": 29923788,
+              "territory": "WORLD"
+            }
+          ]
+        },
+        "previous": "",
+        "publisher": "0x907a8655f4cc2573c5213d491c02e5a08cadb374",
+        "revision": 1,
+        "submitted_at": 29923973
+      },
+      "plan_hash": "0b3ae7d4de410f0f2a9b2d245eae10f8a63c2e1cd79facc40a28fcea090b4c8e",
+      "review": {
+        "cells": [
+          {
+            "asset_id": "relay-footage",
+            "clauses": [
+              1
+            ],
+            "credit": "",
+            "gate": "READY",
+            "id": "web/relay-footage",
+            "outcome": "ALLOW",
+            "route_id": "web",
+            "supplied": "",
+            "terms_hash": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3"
+          },
+          {
+            "asset_id": "signal-score",
+            "clauses": [
+              1
+            ],
+            "credit": "",
+            "gate": "READY",
+            "id": "web/signal-score",
+            "outcome": "ALLOW",
+            "route_id": "web",
+            "supplied": "",
+            "terms_hash": "2587bf26fc584e774de66a8ddf2a923c3717071508c42c523e85acce1a3e5df6"
+          },
+          {
+            "asset_id": "title-art",
+            "clauses": [
+              1
+            ],
+            "credit": "Graphics by Paper Signal",
+            "gate": "READY",
+            "id": "web/title-art",
+            "outcome": "CREDIT",
+            "route_id": "web",
+            "supplied": "Graphics by Paper Signal",
+            "terms_hash": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe"
+          },
+          {
+            "asset_id": "relay-footage",
+            "clauses": [
+              1
+            ],
+            "credit": "",
+            "gate": "READY",
+            "id": "paid/relay-footage",
+            "outcome": "ALLOW",
+            "route_id": "paid",
+            "supplied": "",
+            "terms_hash": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3"
+          },
+          {
+            "asset_id": "signal-score",
+            "clauses": [
+              1
+            ],
+            "credit": "",
+            "gate": "BLOCKED",
+            "id": "paid/signal-score",
+            "outcome": "DENY",
+            "route_id": "paid",
+            "supplied": "",
+            "terms_hash": "2587bf26fc584e774de66a8ddf2a923c3717071508c42c523e85acce1a3e5df6"
+          },
+          {
+            "asset_id": "title-art",
+            "clauses": [
+              1
+            ],
+            "credit": "Graphics by Paper Signal",
+            "gate": "READY",
+            "id": "paid/title-art",
+            "outcome": "CREDIT",
+            "route_id": "paid",
+            "supplied": "Graphics by Paper Signal",
+            "terms_hash": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe"
+          }
+        ],
+        "hash": "92767b64b8ec35e17091beb19bd53ed83cc59315fbdaa4adf0aaca063edac989",
+        "plan_hash": "0b3ae7d4de410f0f2a9b2d245eae10f8a63c2e1cd79facc40a28fcea090b4c8e",
+        "reviewed_at": 29923974,
+        "routes": {
+          "paid": "BLOCKED",
+          "web": "READY"
+        }
+      }
+    },
+    {
+      "approval": {
+        "approved_at": 29923978,
+        "hash": "07e774d0ed120d80b754ec9e3b916d6231d0255f9efa2e940d3d5e27e7f3b33e",
+        "review_hash": "2b461f7851eda19f4b2ed061ce365a150c11b669be2e63d14f8071d1d49c114f",
+        "reviewer": "0x453b3cabac16af18e2cca746fb744b4687217f9a"
+      },
+      "plan": {
+        "campaign_id": "signal-room",
+        "manifest": {
+          "assets": [
+            {
+              "edited": true,
+              "id": "relay-footage",
+              "terms_hash": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3"
+            },
+            {
+              "edited": true,
+              "id": "signal-score",
+              "terms_hash": "a1dfc147e06d8574058e339a585af240d05fa48e631b57381ed2b1c7478c31d2"
+            },
+            {
+              "edited": true,
+              "id": "title-art",
+              "terms_hash": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe"
+            }
+          ],
+          "label": "Paid release cut",
+          "routes": [
+            {
+              "channel": "OWNED_WEB",
+              "credits": {
+                "title-art": "Graphics by Paper Signal"
+              },
+              "end": 30053388,
+              "id": "web",
+              "label": "Owned website",
+              "start": 29923788,
+              "territory": "WORLD"
+            },
+            {
+              "channel": "PAID_SOCIAL",
+              "credits": {
+                "title-art": "Graphics by Paper Signal"
+              },
+              "end": 30053388,
+              "id": "paid",
+              "label": "Paid social",
+              "start": 29923788,
+              "territory": "WORLD"
+            }
+          ]
+        },
+        "previous": "0b3ae7d4de410f0f2a9b2d245eae10f8a63c2e1cd79facc40a28fcea090b4c8e",
+        "publisher": "0x907a8655f4cc2573c5213d491c02e5a08cadb374",
+        "revision": 2,
+        "submitted_at": 29923977
+      },
+      "plan_hash": "3146680ee2e04baac0498c429da50718c00259116376673fc847a0c3e28b0c1a",
+      "review": {
+        "cells": [
+          {
+            "asset_id": "relay-footage",
+            "clauses": [
+              1
+            ],
+            "credit": "",
+            "gate": "READY",
+            "id": "web/relay-footage",
+            "outcome": "ALLOW",
+            "route_id": "web",
+            "supplied": "",
+            "terms_hash": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3"
+          },
+          {
+            "asset_id": "signal-score",
+            "clauses": [
+              1
+            ],
+            "credit": "",
+            "gate": "READY",
+            "id": "web/signal-score",
+            "outcome": "ALLOW",
+            "route_id": "web",
+            "supplied": "",
+            "terms_hash": "a1dfc147e06d8574058e339a585af240d05fa48e631b57381ed2b1c7478c31d2"
+          },
+          {
+            "asset_id": "title-art",
+            "clauses": [
+              1
+            ],
+            "credit": "Graphics by Paper Signal",
+            "gate": "READY",
+            "id": "web/title-art",
+            "outcome": "CREDIT",
+            "route_id": "web",
+            "supplied": "Graphics by Paper Signal",
+            "terms_hash": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe"
+          },
+          {
+            "asset_id": "relay-footage",
+            "clauses": [
+              1
+            ],
+            "credit": "",
+            "gate": "READY",
+            "id": "paid/relay-footage",
+            "outcome": "ALLOW",
+            "route_id": "paid",
+            "supplied": "",
+            "terms_hash": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3"
+          },
+          {
+            "asset_id": "signal-score",
+            "clauses": [
+              1
+            ],
+            "credit": "",
+            "gate": "READY",
+            "id": "paid/signal-score",
+            "outcome": "ALLOW",
+            "route_id": "paid",
+            "supplied": "",
+            "terms_hash": "a1dfc147e06d8574058e339a585af240d05fa48e631b57381ed2b1c7478c31d2"
+          },
+          {
+            "asset_id": "title-art",
+            "clauses": [
+              1
+            ],
+            "credit": "Graphics by Paper Signal",
+            "gate": "READY",
+            "id": "paid/title-art",
+            "outcome": "CREDIT",
+            "route_id": "paid",
+            "supplied": "Graphics by Paper Signal",
+            "terms_hash": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe"
+          }
+        ],
+        "hash": "2b461f7851eda19f4b2ed061ce365a150c11b669be2e63d14f8071d1d49c114f",
+        "plan_hash": "3146680ee2e04baac0498c429da50718c00259116376673fc847a0c3e28b0c1a",
+        "reviewed_at": 29923977,
+        "routes": {
+          "paid": "READY",
+          "web": "READY"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "head": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3",
+      "id": "relay-footage",
+      "issuer": "0x7ab5a33344298696f5f74bb59a006cd54e076146",
+      "kind": "FOOTAGE",
+      "label": "Relay exterior",
+      "registered_at": 29923969,
+      "versions": [
+        "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3"
+      ],
+      "withdrawal": null,
+      "withdrawals": []
+    },
+    {
+      "head": "a1dfc147e06d8574058e339a585af240d05fa48e631b57381ed2b1c7478c31d2",
+      "id": "signal-score",
+      "issuer": "0x7ab5a33344298696f5f74bb59a006cd54e076146",
+      "kind": "MUSIC",
+      "label": "Signal Room score",
+      "registered_at": 29923971,
+      "versions": [
+        "2587bf26fc584e774de66a8ddf2a923c3717071508c42c523e85acce1a3e5df6",
+        "a1dfc147e06d8574058e339a585af240d05fa48e631b57381ed2b1c7478c31d2"
+      ],
+      "withdrawal": null,
+      "withdrawals": []
+    },
+    {
+      "head": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe",
+      "id": "title-art",
+      "issuer": "0x7ab5a33344298696f5f74bb59a006cd54e076146",
+      "kind": "GRAPHIC",
+      "label": "Title treatment",
+      "registered_at": 29923972,
+      "versions": [
+        "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe"
+      ],
+      "withdrawal": null,
+      "withdrawals": []
+    }
+  ],
+  "terms": [
+    {
+      "asset_id": "relay-footage",
+      "clauses": [
+        "Use of edited and unedited footage is permitted worldwide on owned websites and paid social advertisements. No attribution is required."
+      ],
+      "credit_line": "",
+      "hash": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3",
+      "issuer": "0x7ab5a33344298696f5f74bb59a006cd54e076146",
+      "posted_at": 29923970,
+      "previous": "",
+      "reference": "",
+      "valid_from": 29922348,
+      "valid_to": 30182988,
+      "version": 1
+    },
+    {
+      "asset_id": "signal-score",
+      "clauses": [
+        "Use of edited and unedited music is permitted worldwide on owned websites, without attribution. Paid social advertising is prohibited worldwide."
+      ],
+      "credit_line": "",
+      "hash": "2587bf26fc584e774de66a8ddf2a923c3717071508c42c523e85acce1a3e5df6",
+      "issuer": "0x7ab5a33344298696f5f74bb59a006cd54e076146",
+      "posted_at": 29923971,
+      "previous": "",
+      "reference": "",
+      "valid_from": 29922348,
+      "valid_to": 30182988,
+      "version": 1
+    },
+    {
+      "asset_id": "title-art",
+      "clauses": [
+        "Use of edited and unedited graphics is permitted worldwide on owned websites and paid social advertisements. Every use requires the exact attribution line Graphics by Paper Signal."
+      ],
+      "credit_line": "Graphics by Paper Signal",
+      "hash": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe",
+      "issuer": "0x7ab5a33344298696f5f74bb59a006cd54e076146",
+      "posted_at": 29923972,
+      "previous": "",
+      "reference": "",
+      "valid_from": 29922348,
+      "valid_to": 30182988,
+      "version": 1
+    },
+    {
+      "asset_id": "signal-score",
+      "clauses": [
+        "Use of edited and unedited music is permitted worldwide on owned websites and paid social advertisements. No attribution is required."
+      ],
+      "credit_line": "",
+      "hash": "a1dfc147e06d8574058e339a585af240d05fa48e631b57381ed2b1c7478c31d2",
+      "issuer": "0x7ab5a33344298696f5f74bb59a006cd54e076146",
+      "posted_at": 29923976,
+      "previous": "2587bf26fc584e774de66a8ddf2a923c3717071508c42c523e85acce1a3e5df6",
+      "reference": "",
+      "valid_from": 29922348,
+      "valid_to": 30182988,
+      "version": 2
+    }
+  ],
+  "certificates": [
+    {
+      "changed": [
+        {
+          "asset_id": "signal-score",
+          "current": "a1dfc147e06d8574058e339a585af240d05fa48e631b57381ed2b1c7478c31d2",
+          "pinned": "2587bf26fc584e774de66a8ddf2a923c3717071508c42c523e85acce1a3e5df6",
+          "reason": "TERMS_CHANGED"
+        }
+      ],
+      "checked_at": 29923977,
+      "receipt": {
+        "approval_hash": "0bf29b7bb57454f14aad988585b65ed861e3cbde0e068e058ad74823e9162778",
+        "assets": [
+          {
+            "edited": true,
+            "id": "relay-footage",
+            "terms_hash": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3"
+          },
+          {
+            "edited": true,
+            "id": "signal-score",
+            "terms_hash": "2587bf26fc584e774de66a8ddf2a923c3717071508c42c523e85acce1a3e5df6"
+          },
+          {
+            "edited": true,
+            "id": "title-art",
+            "terms_hash": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe"
+          }
+        ],
+        "campaign_id": "signal-room",
+        "hash": "5a7c8d23490d306431ac653eebe2215d736a45ac8c0158e4dbfa8e749162cc79",
+        "id": "signal-room/1/web",
+        "issued_at": 29923975,
+        "plan_hash": "0b3ae7d4de410f0f2a9b2d245eae10f8a63c2e1cd79facc40a28fcea090b4c8e",
+        "publisher": "0x907a8655f4cc2573c5213d491c02e5a08cadb374",
+        "replaces": "",
+        "review_hash": "92767b64b8ec35e17091beb19bd53ed83cc59315fbdaa4adf0aaca063edac989",
+        "revision": 1,
+        "route": {
+          "channel": "OWNED_WEB",
+          "credits": {
+            "title-art": "Graphics by Paper Signal"
+          },
+          "end": 30053388,
+          "id": "web",
+          "label": "Owned website",
+          "start": 29923788,
+          "territory": "WORLD"
+        }
+      },
+      "retirement": null,
+      "status": "STALE_TERMS"
+    },
+    {
+      "changed": [],
+      "checked_at": 29923980,
+      "receipt": {
+        "approval_hash": "07e774d0ed120d80b754ec9e3b916d6231d0255f9efa2e940d3d5e27e7f3b33e",
+        "assets": [
+          {
+            "edited": true,
+            "id": "relay-footage",
+            "terms_hash": "281b84b4720f2b70062851521cdafb384f18d1da0ac995f936dff7d4dffe0fd3"
+          },
+          {
+            "edited": true,
+            "id": "signal-score",
+            "terms_hash": "a1dfc147e06d8574058e339a585af240d05fa48e631b57381ed2b1c7478c31d2"
+          },
+          {
+            "edited": true,
+            "id": "title-art",
+            "terms_hash": "b398837dfbdf52503fb915fae48da0fc073c55688b7aa4bb15c87cf6610d1afe"
+          }
+        ],
+        "campaign_id": "signal-room",
+        "hash": "b984c2f97994f5a1d4cd2f6905edcf0b3720be0e666e266b65828c32f3314e73",
+        "id": "signal-room/2/paid",
+        "issued_at": 29923979,
+        "plan_hash": "3146680ee2e04baac0498c429da50718c00259116376673fc847a0c3e28b0c1a",
+        "publisher": "0x907a8655f4cc2573c5213d491c02e5a08cadb374",
+        "replaces": "",
+        "review_hash": "2b461f7851eda19f4b2ed061ce365a150c11b669be2e63d14f8071d1d49c114f",
+        "revision": 2,
+        "route": {
+          "channel": "PAID_SOCIAL",
+          "credits": {
+            "title-art": "Graphics by Paper Signal"
+          },
+          "end": 30053388,
+          "id": "paid",
+          "label": "Paid social",
+          "start": 29923788,
+          "territory": "WORLD"
+        }
+      },
+      "retirement": null,
+      "status": "VALID"
+    }
+  ],
+  "finalized_transactions": 17
+}
